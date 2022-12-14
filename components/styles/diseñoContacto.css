@@ -1,0 +1,151 @@
+.conteinerInfo {
+    width:80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 45px 0px;
+}
+
+.containerMessage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Message {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px;
+}
+
+.containerFields {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.fname {
+    width: 543px;
+    height:50px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lname {
+    width:543px;
+    height:50px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ltext {
+    width:543px;
+    height:134px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border-color: #fff;
+    padding: 10px;
+}
+
+#btnSubmit {
+    width:543px;
+    height:49px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: #450707;
+    color: #fff;
+    border-color: #450707;
+    font: size 14px;
+    font-weight: bold;
+}
+
+/* Copyright */
+
+.containerCopyright {
+    width:100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.imgFootball {
+    display: flex;
+    justify-content: center;
+}
+
+.msgCopyright .copyright {
+    color: #fff;
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCopyright .redSocial {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCopyright .redSocial .social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #450707;
+    margin-right: 10px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    border-color: #450707;
+}
+
+@media screen and (max-width:950px) {
+    .conteinerInfo {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 35px 0px;
+    }
+
+    .containerFields {
+        width: 100%;
+    }
+
+    .containerMessage {
+        margin-bottom: 20px;
+    }
+
+    .fname {
+        width: 100%;
+    }
+    
+    .lname {
+        width: 100%;
+    }
+    
+    .ltext {
+        width: 100%;
+    }
+
+    .containerCopyright {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .containerCopyright .redSocial {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
