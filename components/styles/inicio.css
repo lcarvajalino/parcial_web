@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #04091A;
 }
 *{
@@ -17,7 +17,7 @@ a{
 header{
     display: flex;
     min-height: 60px;
-    background-color: rgb(9, 15, 66);
+    background-color: rgb(6, 20, 143);
     justify-content: space-between;
     align-items: center;
 }
@@ -27,7 +27,7 @@ header{
 }
 
 .logo{
-    height: 40px;
+    height: 45px;
     margin-left: 30px;
     margin-top: 10px;
 }
@@ -99,7 +99,8 @@ nav a{
 }
 
 nav a:hover{
-    color: #80000A;
+    color: #ff0015;
+    
 }
 
 .featured {
